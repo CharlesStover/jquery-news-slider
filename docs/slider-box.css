@@ -1,0 +1,75 @@
+body {
+	background-color : #fff;
+	text-align : center;
+}
+
+div.slider-box {
+	background-color : #202040;
+	border : #5050a0 inset 1px;
+	height : 320px;
+	margin : 0 auto;
+	text-align : left;
+	width : 620px;
+}
+
+div.slider-box div.background, div.slider-box div.background2 {
+	background-repeat : no-repeat;
+	height : 300px;
+	width : 600px;
+}
+
+div.slider-box div.background {
+	position : relative;
+	top : -300px;
+}
+
+div.slider-box div.navigation {
+	height : 300px;
+	position : relative;
+	text-align : center;
+	width : 142px;
+}
+
+div.slider-box div.navigation img {
+	border : #000000 solid 2px;
+	cursor : pointer;
+	margin-top : 10px;
+}
+
+div.slider-box div.navigation img:hover {
+	border-color : #808080;
+}
+
+div.slider-box div.navigation img.selected {
+	border-color : #ffffff;
+}
+
+div.slider-box div.navigation.bar {
+	background-color : #202040;
+	margin-top : -600px;
+}
+
+div.slider-box div.navigation.icons {
+	margin-top : -300px;
+}
+
+div.slider-box div.padding {
+	padding : 10px;
+}
+
+div.slider-box div.text {
+	background-color : #404040;
+	border : #000000 solid 1pt;
+	color : #e0e0ff;
+	display : block;
+	float : left;
+	font-family : "Verdana", "Tahoma", sans-serif;
+	font-size : 13px;
+	line-height : 17px;
+	padding : 2px 6px;
+	position : relative;
+}
+
+div.slider-box div.text a {
+	color : #e0e0ff;
+}

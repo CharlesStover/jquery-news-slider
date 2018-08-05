@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery News Slider - Demo</title>
+    <link rel="stylesheet" media="all" type="text/css" href="slider-box.css" />
+    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="slider-box.min.js"></script>
+  </head>
+  <body>
+    <h1>jQuery News Slider - Demo</h1>
+    <h2>Bottom-Right Aligned, Random Animation, Visible Navigation</h2>
+    <script type="text/javascript">
+
+sliderBox({
+  align: "right", // navigation alignment
+  backgrounds: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
+  direction: false, // direction of effect (for slide)
+  effect: "random", // fade, slide, random
+  hide: false, // hide navigation onmouseout
+  text: ["Image 1 caption with extended text", '<a href="https://charlesstover.com/">HTML links<\/a> for image 2', "Caption for image 3", "Image 4 caption here"],
+  valign: "bottom" // text alignment
+});
+
+    </script>
+    <h2>Top-Left Aligned, Random Animation, Hidden Navigation</h2>
+    <script type="text/javascript">
+
+sliderBox({
+  align: "left", // navigation alignment
+  backgrounds: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
+  direction: false, // direction of effect (for slide)
+  effect: "random", // fade, slide, random
+  hide: true, // hide navigation onmouseout
+  text: ["Image 1 caption with extended text", '<a href="https://charlesstover.com/">HTML links<\/a> for image 2', "Caption for image 3", "Image 4 caption here"],
+  valign: "top" // text alignment
+});
+
+    </script>
+  </body>
+</html>
